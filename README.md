@@ -97,7 +97,7 @@ Recent courses include GCP Professional Cloud Architect prep, GitHub Actions, De
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=samehsamirismail&hide_border=true&theme=tokyonight" alt="GitHub streak">
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=samehsamirismail" alt="GitHub Streak" /></a>
 </p>
 
 ## Get in touch
