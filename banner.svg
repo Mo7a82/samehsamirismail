@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Sameh Samir Ismail. Business Analyst, Solution Architect, Reporting and Analytics">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1628"/>
+      <stop offset="1" stop-color="#11284a"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <style>
+      .t1{font:700 54px "Segoe UI",Helvetica,Arial,sans-serif;fill:#f1f5f9}
+      .t2{font:500 22px "Segoe UI",Helvetica,Arial,sans-serif;fill:#cbd5e1;letter-spacing:.3px}
+      .t3{font:italic 400 18px "Segoe UI",Helvetica,Arial,sans-serif;fill:#7dd3fc}
+      .edge{stroke:#38bdf8;stroke-opacity:.35;stroke-width:1.4}
+      .node{fill:#38bdf8}
+      .pulse{animation:p 3.2s ease-in-out infinite}
+      .d1{animation-delay:.4s}.d2{animation-delay:.9s}.d3{animation-delay:1.5s}.d4{animation-delay:2.1s}.d5{animation-delay:2.6s}
+      @keyframes p{0%,100%{opacity:.45}50%{opacity:1}}
+      .flow{stroke-dasharray:6 10;animation:f 6s linear infinite}
+      @keyframes f{to{stroke-dashoffset:-160}}
+      @media (prefers-reduced-motion:reduce){.pulse,.flow{animation:none}}
+    </style>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <rect width="1280" height="320" fill="url(#dots)"/>
+
+  <!-- network graph, right side -->
+  <g transform="translate(830 30)">
+    <line class="edge" x1="40" y1="70" x2="150" y2="40"/>
+    <line class="edge" x1="150" y1="40" x2="270" y2="90"/>
+    <line class="edge" x1="40" y1="70" x2="110" y2="170"/>
+    <line class="edge" x1="110" y1="170" x2="270" y2="90"/>
+    <line class="edge" x1="110" y1="170" x2="220" y2="230"/>
+    <line class="edge" x1="270" y1="90" x2="370" y2="150"/>
+    <line class="edge" x1="220" y1="230" x2="370" y2="150"/>
+    <line class="edge" x1="150" y1="40" x2="110" y2="170"/>
+    <line class="edge" x1="370" y1="150" x2="410" y2="40"/>
+    <line class="edge" x1="220" y1="230" x2="330" y2="250"/>
+    <line class="edge flow" x1="40" y1="70" x2="270" y2="90" stroke="#2dd4bf" stroke-opacity=".7"/>
+    <line class="edge flow" x1="110" y1="170" x2="370" y2="150" stroke="#2dd4bf" stroke-opacity=".7"/>
+
+    <circle class="node pulse" cx="40" cy="70" r="6"/>
+    <circle class="node pulse d1" cx="150" cy="40" r="5"/>
+    <circle class="node pulse d2" cx="270" cy="90" r="8" fill="#2dd4bf"/>
+    <circle class="node pulse d3" cx="110" cy="170" r="7"/>
+    <circle class="node pulse d4" cx="220" cy="230" r="5"/>
+    <circle class="node pulse d5" cx="370" cy="150" r="6" fill="#2dd4bf"/>
+    <circle class="node pulse d1" cx="410" cy="40" r="4"/>
+    <circle class="node pulse d3" cx="330" cy="250" r="4"/>
+  </g>
+
+  <!-- text block -->
+  <rect x="70" y="92" width="6" height="128" rx="3" fill="url(#accent)"/>
+  <text class="t1" x="100" y="140">Sameh Samir Ismail</text>
+  <text class="t2" x="100" y="180">Business Analyst  ·  Solution Architect  ·  Reporting &amp; Analytics</text>
+  <text class="t3" x="100" y="216">Making complex things clear, and clear things work.</text>
+</svg>
