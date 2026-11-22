@@ -89,17 +89,6 @@ Certified ScrumMaster (Scrum Alliance) · TOGAF 9 Certified (The Open Group) · 
 
 Recent courses include GCP Professional Cloud Architect prep, GitHub Actions, DevOps and CI/CD, Copilot Studio and AI agents, and Power BI dashboards for projects.
 
-## GitHub stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=samehsamirismail&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=tokyonight" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samehsamirismail&layout=compact&hide_border=true&theme=tokyonight" alt="Top languages">
-</p>
-
-<p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=samehsamirismail" alt="GitHub Streak" /></a>
-</p>
-
 ## Get in touch
 
 The easiest way to reach me is a message on [LinkedIn](https://www.linkedin.com/in/samehsamirismail/). I'm always happy to talk about requirements work or Power BI.
